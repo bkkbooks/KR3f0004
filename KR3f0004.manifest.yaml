@@ -1,0 +1,84 @@
+canonical_identifier: bkk:krp/KR3f0004/v1
+canonical_location: https://kanripo.org/bkk/KR3f0004/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 重修革象新書
+  date: '2015-08-24 23:09:09.018588'
+  source:
+    repository: kanripo
+    path: KR3f0004
+  base_edition: WYG
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: WYG
+  label: 【四庫全書・文淵閣】
+assets:
+  parts:
+  - {seq: 0, filename: KR3f0004_000.yaml, hash: 'sha256:8b61682ea51e64f07c1361a8ea881bbf510a2746068beb01bc2b8462ceb7a288'}
+  - {seq: 1, filename: KR3f0004_001.yaml, hash: 'sha256:6eb1b83c96e0183e74a56c368a4e29c0f0a5b2c65e2ac7c9f1f36e8eb9da2db4'}
+  - {seq: 2, filename: KR3f0004_002.yaml, hash: 'sha256:ff64c85ff773393653105fb5d81602677d06e5eb5f72f4cfb58dc9710fdfc287'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR3f0004_000.markers.yaml, hash: 'sha256:19b5acbb59fdf9e58d66c0dc398e6917c491bf1a21a64f6d09a119c0144093f7'}
+  - {seq: 1, role: markers, filename: assets/KR3f0004_001.markers.yaml, hash: 'sha256:8bffc4c0d2e70fcc48743e4bd94bfe2fc41d5a68b3bf09ed24ee2699db75f592'}
+  - {seq: 2, role: markers, filename: assets/KR3f0004_002.markers.yaml, hash: 'sha256:00b71aa531a8a42076036ede5aec06ee6bad65ee1e998de21fbb3cc2fb4b2e1e'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR3f0004_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 273
+  label: 提要
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR3f0004_WYG_000-3a
+    span:
+    - body
+    - 273
+    - 1119
+  label: 原序宋濓
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR3f0004_WYG_000-6a
+    span:
+    - body
+    - 1119
+    - 1313
+  label: 原序王禕
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR3f0004_WYG_001-1a
+    span:
+    - body
+    - 0
+    - 8132
+  label: 卷上
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR3f0004_WYG_002-1a
+    span:
+    - body
+    - 0
+    - 546
+  label: 題革象新書後
+  type: section
+  level: 1
+hash: sha256:9319b95c4929202a3d679f6f68b51760db55e755ef2c6c6392da7860758f744f
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
